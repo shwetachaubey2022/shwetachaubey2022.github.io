@@ -9,7 +9,7 @@ body {
 }
 .MyGradientClass
 {
-    height:auto;
+    height:700px;
     background-image: linear-gradient(bottom, rgb(172, 184, 189) 25%, rgb(183, 208, 84) 63%, rgb(105, 156, 106) 82%);
     background-image: -o-linear-gradient(bottom, rgb(172, 184, 189) 25%, rgb(183, 208, 84) 63%, rgb(105, 156, 106) 82%);
     background-image: -moz-linear-gradient(bottom, rgb(172, 184, 189) 25%, rgb(183, 208, 84) 63%,rgb(105, 156, 106) 82%);
@@ -26,48 +26,15 @@ body {
     );   
 }
 
-img {
-  margin-left: 75px;
-  border-radius: 25px;
-  margin-bottom: 50px;
-}
-
-.row {
-  display: flex;
-}
-
-.column {
-  flex: 33.33%;
-  padding: 5px;
-}​
-
 h1{ 
-  text-align: center;
-  color: #040900;
-}
-
-h2{
-  font-size: 15px;
-  text-align: left;
-  line-height:0px;
-  margin-top: 5px;  
-}
-
-h3{
   font-family: 'Courier New', Courier, monospace;
-  font-size: 50px;
+  font-size:3vw;
+  border-width:3px; 
+  border-style:solid; 
+  border-color:#042550;
   text-align: center;
   color: rgb(103, 25, 37);
 }
-
-
-p{  
-  font-size: 20px; 
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-
 
 #button1{
   font-family: 'Courier New', Courier, monospace;
@@ -80,6 +47,7 @@ p{
   background: rgba(30, 52, 142, 0.5)
   
 }
+
 #button1:hover {
   background-color:green;  
 }
@@ -101,3 +69,19 @@ p{
   margin-bottom: 40px;
   text-align: center;
 }
+
+img {
+  margin-left: 75px;
+  border-radius: 25px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}​
+
+{}
