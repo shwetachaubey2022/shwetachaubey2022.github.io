@@ -9,7 +9,7 @@ body {
 }
 .MyGradientClass
 {
-    height:700px;
+    height:auto;
     background-image: linear-gradient(bottom, rgb(172, 184, 189) 25%, rgb(183, 208, 84) 63%, rgb(105, 156, 106) 82%);
     background-image: -o-linear-gradient(bottom, rgb(172, 184, 189) 25%, rgb(183, 208, 84) 63%, rgb(105, 156, 106) 82%);
     background-image: -moz-linear-gradient(bottom, rgb(172, 184, 189) 25%, rgb(183, 208, 84) 63%,rgb(105, 156, 106) 82%);
