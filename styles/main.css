@@ -7,6 +7,9 @@ body {
   /*background-color: rgb(194 182 182);*/
   font-family: 'Garamond', sans-serif;
 }
+
+
+
 .MyGradientClass
 {
     height:auto;
@@ -26,11 +29,27 @@ body {
     );   
 }
 
+
+h1{
+  font-size: 3vw; 
+  margin-bottom: 0px;
+  text-align: left;
+}
+h3{
+  border-width:3px; 
+  border-style:solid; 
+  border-color:#042550;
+}
+
 img {
   margin-left: 75px;
   border-radius: 25px;
   margin-bottom: 50px;
+  width: 450px;
+  height: 250px;
 }
+
+
 
 .row {
   display: flex;
@@ -39,10 +58,11 @@ img {
 .column {
   flex: 33.33%;
   padding: 5px;
-}​
+}
+
 
 h1{ 
-  text-align: center;
+  text-align: left;
   color: #040900;
 }
 
@@ -66,8 +86,6 @@ p{
   margin-top: 0px;
   margin-bottom: 0px;
 }
-
-
 
 #button1{
   font-family: 'Courier New', Courier, monospace;
@@ -101,3 +119,80 @@ p{
   margin-bottom: 40px;
   text-align: center;
 }
+
+
+@media screen and (max-width: 768px) {
+  /* For IPAD: */
+  img{
+    margin-left: 10px;  
+    width: 300px;
+    height: 150px;      
+  }
+  img#picture1{
+    margin-left: 30px;
+  }
+  img#picture2{    
+    margin-left: 30px;
+  }
+  h3{
+    box-sizing: border-box;
+    inline-size: 410px;
+    margin-left: 170px;
+    text-align: center;    
+  }
+  p{
+    text-align: center;   
+    margin-left: 140px;  
+    font-size: 15px;  
+    inline-size: 450px;
+    }
+
+    #button1{
+      margin-bottom: 30px;
+      margin-right: 10px;
+    }
+
+    #button2{
+      margin-left: 30px;
+      margin-right: 10px;
+    }
+}
+
+  @media screen and (max-width: 320px) {
+    /* For phone */
+    [class*="column"] {
+      height: 500px;
+    }
+    h1{
+      font-size: 30px;
+    }
+    h2{
+      font-size: 20px;
+    }
+    h3{
+      box-sizing: border-box;
+      inline-size: 400px;
+      margin-left: 80px;
+    }
+    p{
+      text-align: center;  
+      inline-size: 300px;         
+    }
+    #button1{
+      margin-bottom: 20px;
+      margin-left: 150px;
+      width: 250px;
+    }
+
+    #button2{
+      margin-left: 150px;
+      width: 250px;
+    }
+
+    img{
+    width: 250px;
+    height: 200px;
+    }
+  }
+
+
