@@ -109,10 +109,13 @@ h1{
 }
 
 img#frame{
-  width: 600px;
-  height: 400px;
+  width: 500px;
+  height: 300px;
 }
-
+img#bubblewrap{
+  width: 350px;
+  height: 200px;
+}
 .center {
   display: block;
   margin-left: auto;
@@ -120,13 +123,10 @@ img#frame{
   width: 400px;
   height:250px;  
 }
+
 @media screen and (max-width: 768px) {
   /* For IPAD: */
-  img{
-    margin-left: 10px;  
-    width: 300px;
-    height: 150px;      
-  }
+  
   img#picture1{
     margin-left: 30px;
   }
@@ -155,8 +155,15 @@ img#frame{
       margin-left: 30px;
       margin-right: 10px;
     }
-
-}
+    img{
+      width: 300px;
+      height: 35px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      inline-size: 400px;
+      }
+  }
 
   @media screen and (max-width: 320px) {
     /* For phone */
@@ -182,19 +189,29 @@ img#frame{
       margin-left: 30px;
       width: 200px;
     }
-
     #button2{
       margin-left: 30px;
       margin-bottom: 20px;
       width: 200px;
     }
-
     img{
-    width: 250px;
-    height: 200px;
+    width: 300px;
+    height: 35px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     }
-
     img#frame{
-      width: 200px;
+      width: 300px;
+      height: 200px;
+    }
+    img#bubblewrap{
+      width: 300px;
+      height: 200px;
+    }
+    img#charts{
+      width: 275px;
+      height: 200px;
+        
     }
   }
